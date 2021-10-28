@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <link href="css/hover-min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign up</title>
+</head>
+<body>
+    <div class="container">
+        <div class="main-wrapper d-flex mt-4">
+            <div class="main-logo">
+                <a href="index.html"><img src="images/logo.jpg" alt="Responsive image" class="img-fluid navbar-brand shake-chunk shake-constant shake-constant--hover dib"></a>
+                <div class="welcome-block">
+                    <img src="images/unlock.svg" alt="Responsive image" class="img-fluid animate__animated animate__slideInLeft">
+                </div>
+            </div>
+            <div class="main-form">
+                  <div class="wrapper">
+                    <h2>Contact us</h2>
+                    <div id="error_message">
+                       
+                    </div>
+                    <form action="" id="myform" onsubmit = "return validate();">
+                      <div class="input_field">
+                          <input type="text" placeholder="Name" id="name">
+                      </div>
+                      <div class="input_field">
+                          <input type="text" placeholder="Subject" id="subject">
+                      </div>
+                      <div class="input_field">
+                          <input type="text" placeholder="Phone" id="phone">
+                      </div>
+                      <div class="input_field">
+                          <input type="text" placeholder="Email" id="email">
+                      </div>
+                      <div class="input_field">
+                          <textarea placeholder="Message" id="message"></textarea>
+                      </div>
+                      <div class="btn">
+                          <input  type="submit">
+                      </div>
+                    </form>
+                  </div>
+            </div>
+            <div class="main-login">
+                <h6 class="text-center">Want to know us more? <span><a href="index.html">Get Started</a></span></h6>
+                <div class="lighthouse-block">
+                    <img src="images/lighthouse.svg" alt="Responsive image" class="img-fluid animate__animated animate__slideInRight">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+      <!-- feedback sliding form starts here -->
+<div id="slide">
+    <div id="toggle" class="text-center text-white animate__animated animate__backInUp shake-opacity"><img src="images/slide.svg" alt="Responsive image" class="img-fluid slide"></div>
+    <form id="form" class="form">
+        <h2>Feedback Form</h2>
+        <div class="form-control">
+            <label for="username">First Name*</label>
+            <input type="text" id="firstname" placeholder="Enter Firstname">
+            <small class="text-center">Error Message</small>
+        </div>
+        <div class="form-control">
+            <label for="username">Last Name*</label>
+            <input type="text" id="lastname" placeholder="Enter Lastname">
+            <small class="text-center">Error Message</small>
+        </div>
+        <div class="form-control">
+            <label for="email">Email*</label>
+            <input type="text" id="email" placeholder="Enter email">
+            <small class="text-center">Error Message</small>
+        </div>
+        <div class="form-control">
+            <label for="email">Phone*</label>
+            <input type="tel" id="phone" placeholder="Enter phone number">
+            <small class="text-center">Error Message</small>
+        </div>
+        <div class="form-control">
+            <label for="textarea">Reviews*</label>
+            <textarea type="textarea" id="textarea" rows="2" cols="31" placeholder="Write Your Reviews"></textarea>
+            <small class="text-center">Error Message</small>
+        </div>
+        <button class="btn btn-danger check" type="submit">Submit</button>
+    </form>
+  </div>
+     <!-- feedback sliding form ends here -->
+    <script src="demo.js"></script>
+</body>
+</html>
