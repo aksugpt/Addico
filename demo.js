@@ -112,3 +112,26 @@ form.addEventListener('submit',function(e) {
     checktextarea(textarea);  
 });
 //   feedback form code ends here
+
+
+
+// text changer code starts here
+(function(){
+    var words = [
+        'Website Development<i class="far fa-check-circle"></i>',
+        'Creative Designing<i class="far fa-check-circle"></i>',
+        'Content Writing<i class="far fa-check-circle"></i>',
+        'Digital Marketing<i class="far fa-check-circle"></i>',
+        'SEO<i class="far fa-check-circle"></i>'
+        ], i = 0;
+    setInterval(function(){
+        $('#changingword').fadeOut(function(){
+            $(this).html(words[i=(i+1)%words.length]).fadeIn();
+        });
+    }, 2000);
+      
+})();
+
+
+
+// text changer code ends here
