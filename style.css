@@ -231,7 +231,7 @@ h2{
     position: relative;
     border: none !important;
     height: 100% !important;
-    background-color: #FEE6EF;
+    background-color: #FFEFEB;
 }
 
 .form-control label{
@@ -277,7 +277,7 @@ h2{
     visibility: visible;
 }
 .form{
-    background-color: #FEE6EF;
+    background-color: #FFEFEB;
 }
 .form button {
     cursor: pointer;
@@ -386,5 +386,8 @@ h2{
       }
       .main-wrapper-main {
         border-radius: 4px 48px;
+    }
+    .slide {
+        width: 10vw;
     }
   }
