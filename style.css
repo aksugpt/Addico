@@ -31,7 +31,7 @@ body{
 .navbar-nav{
     justify-content: space-around;
     width: 100%;
-    padding: 0px 0px 0px 500px;
+    padding: 0px 0px 0px 300px;
 }
 .signup, .signup button, .check{
     border-radius: 4px 24px;
@@ -89,7 +89,11 @@ body{
 }
 .main-wrapper-main{
     background-color: lightsalmon;
-    border-radius: 4px 300px;
+    border-radius: 4px 100px;
+}
+.main-wrapper-content{
+    background-color: lightsalmon;
+    border-radius: 100px 4px;
 }
 /* text changer starts here */
 h1 {
@@ -107,20 +111,6 @@ h1 {
     color: green !important;
     font-size: 12px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .wrapper{
@@ -391,3 +381,56 @@ h2{
         width: 10vw;
     }
   }
+
+  .aboutHeading{
+      margin-top: 10px;
+      background-color: #ffc3b6;
+      padding: 5px;
+      color: white;
+  }
+  .aboutHeading h2{
+      margin-bottom: 0px !important;
+  }
+  .whyUs h5, .aboutContent h5{
+      color: #FF5733;
+      text-decoration: underline;
+      font-size: 25px;
+  }
+  .footer-head h5{
+      text-decoration: underline;
+  }
+  .aboutContent p, .whyUs ol li{
+    font-size: 18px;
+    font-weight: 400;
+  }
+.footer{
+    background: lightsalmon;
+}
+.click-logo img{
+    width: 8vw !important;
+    height: auto;
+  }
+
+.seigwerk{
+    background: red;
+    padding: 5px;
+    border-radius: 50px;
+}
+.social-icon{
+    display: flex;
+    justify-content: space-between;
+    font-size: 40px;
+}
+.footer-logo img{
+    width: 12vw;
+    height: auto;
+}
+ 
+
+
+
+
+
+
+
+  
